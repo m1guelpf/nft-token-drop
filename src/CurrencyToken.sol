@@ -5,8 +5,8 @@ import "solmate/tokens/ERC20.sol";
 import "solmate/tokens/ERC721.sol";
 
 contract CurrencyToken is ERC20 {
-    ERC721 internal nft;
-    uint256 public tokensPerClaim;
+    ERC721 internal immutable nft;
+    uint256 public immutable tokensPerClaim;
 
     event Claimed(uint256 indexed tokenId, address indexed claimer);
 
