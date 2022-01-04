@@ -1,0 +1,7 @@
+testNonOwnerCannotClaim() (gas: 20837)
+testNonOwnerCannotMultiClaim() (gas: 26881)
+testOwnerCanClaim() (gas: 85935)
+testOwnerCanMultiClaim() (gas: 120687)
+testOwnerCannotClaimTwice() (gas: 82385)
+testOwnerCannotDoubleMultiClaim() (gas: 37207)
+testOwnerCannotMultiClaimTwice() (gas: 112481)
